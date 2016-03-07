@@ -23,6 +23,7 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 Tasks performed:
+
 1. Merge the training and the test sets to create one data set.
 2. Assign column names and merge to create one data set.
 3. Extract only the measurements on the mean and standard deviation for each measurement.
