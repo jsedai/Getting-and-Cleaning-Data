@@ -49,4 +49,4 @@ tidyData    = merge(aggregate(allData[,names(allData) != 'activityLabel'][,names
                     ,activityLabel,by='activityId',all.x=TRUE);
 
 # Export the tidyData set 
-write.table(tidyData, './tidyData.txt',row.names=TRUE,sep=',');
+write.table(tidyData, './tidyData.txt',row.names=FALSE,sep=',');
